@@ -84,7 +84,7 @@
     </gap:config-file>
 	-->
 	<feature name="StatusBar">
-        <param name="ios-package" value="CDVStatusBar" onload="false" />
+        <param name="ios-package" value="CDVStatusBar" onload="true" />
     </feature>
 	
 	<!--<gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" /> -->
