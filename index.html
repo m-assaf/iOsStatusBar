@@ -41,6 +41,15 @@
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             app.initialize();
+			function onDeviceReady() {
+    if (parseFloat(window.device.version) === 7.0) {
+          document.body.style.marginTop = "20px";
+    }
+}
+  
+document.addEventListener('deviceready', onDeviceReady, false);
+			
+			
         </script>
     </body>
 </html>
