@@ -28,8 +28,8 @@
     -->
     <!--<preference name="permissions" value="none"/> -->
 	
-	<preference name="BackgroundColor" value="red"/>
-	<preference name="StatusBarOverlaysWebView" value="true" />
+	<preference name="BackgroundColor" value="#C0C0C0"/>
+	<!--<preference name="StatusBarOverlaysWebView" value="true" /> -->
 	
 	  <!-- Customize your app and platform with the preference element. -->
     <!--<preference name="phonegap-version"           value="3.5.0" /> -->         <!-- all: current version of PhoneGap -->
@@ -84,7 +84,7 @@
     </gap:config-file>
 	-->
 	<feature name="StatusBar">
-        <param name="ios-package" value="CDVStatusBar" onload="true" />
+        <param name="ios-package" value="CDVStatusBar" onload="false" />
     </feature>
 	
 	<!--<gap:plugin name="de.appplant.cordova.plugin.hidden-statusbar-overlay" /> -->
