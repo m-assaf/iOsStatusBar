@@ -24,9 +24,9 @@
             <feature name="StatusBar">
                 <param name="ios-package" value="CDVStatusBar" onload="true" />
             </feature>
-            <preference name="StatusBarOverlaysWebView" value="false" />
+            <preference name="StatusBarOverlaysWebView" value="true" />
             <!--<preference name="StatusBarBackgroundColor" value="#000000" />-->
-			<preference name="StatusBarBackgroundColor" value="@89657432" />
+			<preference name="StatusBarBackgroundColor" value="red" />
         </config-file>
         
         <header-file src="src/ios/CDVStatusBar.h" />
